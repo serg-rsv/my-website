@@ -1,0 +1,426 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F5F9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.phone-link-number,
+.phone-link-icon,
+.telegram-link,
+.viber-link,
+.icon-link {
+    text-decoration: none;
+}
+
+/*Contact section*/
+.contacts-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    right: 80px;
+}
+
+.viber-link, .phone-link-icon {
+    margin-left: 12px;
+}
+
+.telegram-icon,
+.viber-icon,
+.phone-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.phone-link-number {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+/*Experience section*/
+.experience-section {
+    width: 268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-photo {
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.experience-description {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.technologies-container {
+    margin-bottom: 50px;
+}
+
+.experience-description-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.experience-description-text-margin {
+    margin-bottom: 8px;
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #307EF2;
+}
+
+/*Info section*/
+.info-section {
+    width: 33%;
+    margin: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.my-profession {
+    /* Я делаю сайты */
+    /* header1 */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 36px;
+}
+
+.my-name {
+    /* Привет! Я - Алекс Тур */
+    /* header2 */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.my-location, .my-work-style {
+    /* Живу в Перу */
+    /* subheader */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 4px 16px;
+    background: #307EF2;
+}
+
+.my-work-style {
+    margin-bottom: 100px;
+}
+
+.my-description {
+    /* Я - человек-оркестр. В одиночку заменяю целую веб-студию. */
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    margin-bottom: 16px;
+}
+
+.my-skills-title {
+    /* Умею: */
+    /* header2 */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.my-skills-items {
+    list-style: disc;
+    color: #307EF2;
+    margin-left: 16px;
+}
+
+.my-skills-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+/*Project price section*/
+.project-price-section {
+    width: 33%;
+}
+
+.project-price-form {
+    /* calculator frame */
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.project-price-form-title {
+    /* Рассчитай стоимость проэкта */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #307EF2;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.project-type-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.project-type-label {
+    /* Тип сайта */
+    /* header2 */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.project-type-select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #4F4F4F;
+    /* Landing page */
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    padding-bottom: 8px;
+}
+
+.work-type-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.work-type-title {
+    /* Типы работ */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.work-type-item {
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.work-type-checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.work-type-label {
+    /* Project Management */
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+    margin-left: 16px;
+}
+
+.project-price-container {
+    margin-bottom: 32px;
+}
+
+.project-price-container-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.project-price-sum {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.project-price-sum-currency {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #307EF2;
+}
+
+.project-price-calculate-btn-container {
+    text-align: center;
+}
+
+.project-price-calculate-btn,
+.modal-submit-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding: 12px 32px 12px 32px;
+    cursor: pointer;
+    background: #307EF2;
+    border-radius: 30px;
+}
+
+/*Modal 1*/
+.modal-bgd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-container {
+    background: #fff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 110px 40px;
+    width: 364px;
+    height: 568px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.close-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #307EF2;
+    margin-bottom: 40px;
+}
+
+.user-email-label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.modal-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.user-email {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333333;
+}
+
+.email-input-container {
+    margin-bottom: 116px;
+    height: 116px;
+}
+
+.email-error-text {
+    /* Проверьте email */
+    font-size: 16px;
+    line-height: 24px;
+    color: #E80202;
+    margin-top: 8px;
+    display: none;
+}
+
+.email-input-container-error .email-error-text {
+    display: block;
+}
+
+.email-input-container-error .user-email {
+    border-bottom: 1px solid #E80202;
+}
+
+.close-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.mail-icon,
+.success-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 32px;
+}
+
+.modal-active {
+    pointer-events: all;
+    opacity: 1;
+}
